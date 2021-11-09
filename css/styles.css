@@ -8,14 +8,15 @@
   --second-button-color: #212121;
   --accent-color: #2196f3;
   --header-text-color: #212121;
-  --background-button: ##f5f4fa;
-  --contacts-color: rgba(255, 255, 255, 0.6);
   --hover-color: #2196f3;
+  --tet-accent-color: #000000;
+  --main-work-color: #2e2e2e;
+  --filter-btn-color: #f5f4fa;
 }
 
 body {
   font-family: Roboto, sans-serif;
-  color: #212121;
+  color: var(--header-text-color);
 }
 
 button {
@@ -23,11 +24,22 @@ button {
 }
 
 .logo-accent {
-  color: #00c3ff;
+  color: var(--accent-color);
 }
 
 .tit-accent {
-  color: #000000;
+  color: var(--first-title-color);
+}
+
+.tet-accent {
+  color: var(--tet-accent-color);
+}
+
+.logo-text {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .list {
@@ -50,16 +62,12 @@ button {
   color: var(--hover-color);
 }
 
-.header-link:active {
-  color: brown;
-}
-
 .header-contacts {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--main-text-color);
 }
 
 .header-contacts:focus {
@@ -72,7 +80,6 @@ button {
 
 /*-------------- Main section -------------*/
 .main-title {
-  font-family: Roboto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -84,7 +91,6 @@ button {
 }
 
 .main-btn {
-  font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -93,21 +99,17 @@ button {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--first-button-color);
-  background-color: #2196f3;
+  background-color: var(--hover-color);
   cursor: pointer;
 }
 
 .main-work {
-  background-color: #2e2e2e;
+  background-color: var(--main-work-color);
 }
 
-.gig-work {
-  background-color: #4b4b4b;
-}
 /* --------- Features section ---------- */
 
 .features-func {
-  font-family: Roboto;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -117,8 +119,6 @@ button {
 }
 
 .features-text {
-  font-family: Roboto;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -130,7 +130,6 @@ button {
 /* --------------- Team ------------- */
 
 .team-title {
-  font-family: Roboto;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -140,7 +139,6 @@ button {
 }
 
 .team-personal {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -150,19 +148,17 @@ button {
 }
 
 .team-text {
-  font-family: Roboto;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-text-color);
 }
 
 /* -------------- Footer -------------------  */
 
 .footer-link {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -178,12 +174,10 @@ button {
 }
 
 .footer-contacts {
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--contacts-color);
-  background-color: #757575;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: var(--main-text-color);
 }
 
 .footer-contacts:hover,
@@ -192,14 +186,10 @@ button {
 }
 
 .footer-address {
-  font-family: Roboto;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
   letter-spacing: 0.03em;
-  color: #ffffff;
-  background-color: #757575;
+  color: var(--first-button-color);
 }
 
 .footer-address:hover,
@@ -211,42 +201,29 @@ button {
 
 /* -----------------Filter------------------ */
 .filter-btn {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
-  background-color: #f5f4fa;
+  background-color: var(--filter-btn-color);
   color: var(--second-button-color);
 }
 
 .filter-btn:hover {
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-  cursor: pointer;
-  background-color: #2196f3;
   color: var(--first-button-color);
 }
 
 .work-title {
-  font-family: Roboto;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  /* identical to box height, or 200% */
   letter-spacing: 0.06em;
   color: var(--second-title-color);
 }
 
 .work-text {
-  font-family: Roboto;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
