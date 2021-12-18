@@ -336,7 +336,6 @@ button {
 }
 
 .main-btn {
-  font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -356,7 +355,7 @@ button {
 .main-btn:hover,
 .main-btn:focus {
   background-color: var(--hover-color);
-  color: var(--first-title-color);
+  color: var(--filter-btn-color);
 }
 
 /* ---------Features section---------- */
