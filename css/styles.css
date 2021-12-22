@@ -926,7 +926,8 @@ button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  left: 10;
+  left: 5px;
+  transition: fill 300ms linear;
 }
 
 .modal-input-wrap {
@@ -951,9 +952,21 @@ button {
   display: block;
 }
 
+.modal-btn:hover svg {
+  fill: #ffffff;
+}
+
+.input-btn-icon {
+  margin-left: 6px;
+  transition: fill 300ms linear;
+}
+
 .modal-check-text {
   font-size: 14px;
   color: var(--main-text-color);
+  display: flex;
+  position: relative;
+  align-items: center;
 }
 
 .modal-check-text::before {
@@ -966,6 +979,23 @@ button {
   border-radius: 2px;
 }
 
-.modal-check::checked + .modal-check-text::before {
-  background-color: var(--hover-color);
+.modal-check:checked + .modal-check-text::before {
+  background-image: url(../images/iconcheck.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
