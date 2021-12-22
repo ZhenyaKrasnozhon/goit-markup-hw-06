@@ -705,6 +705,28 @@ button {
   justify-content: center;
 }
 
+.footer-submit {
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+  margin-left: 70px;
+}
+
+.footer-submit-title {
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-transform: uppercase;
+  color: var(--header-title-color);
+  margin-bottom: 20px;
+}
+
+.footer-button-icon {
+  fill: var(--first-title-color);
+}
+
 /* --------------- PORTFOLIO----------------- */
 
 /* -----------------Filter------------------ */
