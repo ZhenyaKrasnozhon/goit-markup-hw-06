@@ -84,20 +84,6 @@ button {
   letter-spacing: 0.03em;
 }
 
-/* -----------------Footer-------------- */
-
-.footer-logo-first {
-  color: var(--accent-color);
-}
-.footer-logo-second {
-  color: var(--first-color);
-}
-
-.footer-logo {
-  display: block;
-  margin-bottom: 20px;
-}
-
 /* -----------------Current-------------- */
 
 .current-link {
@@ -587,6 +573,19 @@ button {
 
 /* --------------FOOTER-------------------  */
 
+.footer-logo-first {
+  color: var(--accent-color);
+}
+.footer-logo-second {
+  color: var(--first-color);
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 20px;
+}
+
+
 .footer-main {
   background-color: var(--second-title-color);
   padding-top: 60px;
@@ -706,10 +705,10 @@ button {
 }
 
 .footer-submit {
-  justify-content: center;
-  align-items: center;
+  width: 570px;
+  height: 86px;
   margin-top: 12px;
-  margin-left: 70px;
+  margin-left: 92px;
 }
 
 .footer-submit-title {
@@ -724,7 +723,29 @@ button {
 }
 
 .footer-button-icon {
-  fill: var(--first-title-color);
+  margin-left: 10px;
+}
+
+.footer-button {
+  border: 0;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0, 0.15);
+  border-radius: 4px;
+  display: flex;
+  text-align: center;
+  padding: 10px 29px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.6em;
+  color: #ffffff;
+}
+
+.footer-botton:hover,
+.footer-botton:focus {
+  background-color: #188ce8;
 }
 
 /* --------------- PORTFOLIO----------------- */
