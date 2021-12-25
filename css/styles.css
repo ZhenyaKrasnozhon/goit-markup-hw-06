@@ -705,11 +705,12 @@ button {
 }
 
 .footer-submit {
-  width: 570px;
-  height: 86px;
+  justify-content: center;
+  align-items: center;
   margin-top: 12px;
-  margin-left: 92px;
+  margin-left: 70px;
 }
+
 
 .footer-submit-title {
   font-weight: 700px;
@@ -733,8 +734,6 @@ button {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0, 0.15);
   border-radius: 4px;
-  display: flex;
-  text-align: center;
   padding: 10px 29px;
   font-weight: bold;
   font-size: 16px;
