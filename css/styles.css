@@ -747,6 +747,12 @@ button {
   background-color: #188ce8;
 }
 
+.submit-input {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: var(--main-text-color);
+}
+
 /* --------------- PORTFOLIO----------------- */
 
 /* -----------------Filter------------------ */
