@@ -585,7 +585,6 @@ button {
   margin-bottom: 20px;
 }
 
-
 .footer-main {
   background-color: var(--second-title-color);
   padding-top: 60px;
@@ -707,10 +706,9 @@ button {
 .footer-submit {
   justify-content: center;
   align-items: center;
-  margin-top: 12px;
-  margin-left: 70px;
+  margin-top: 11px;
+  margin-left: 93px;
 }
-
 
 .footer-submit-title {
   font-weight: 700px;
@@ -723,34 +721,58 @@ button {
   margin-bottom: 20px;
 }
 
-.footer-button-icon {
-  margin-left: 10px;
+.footer-submit-form {
+  display: flex;
+}
+
+.footer-submit-from:hover,
+.footer-submit-from:focus {
+  color: var(--accent-color);
+}
+
+.submit-email {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  padding: 15px 16px;
+  background-color: transparent;
+  width: 358px;
+  color: var(--first-title-color);
+}
+
+.submit-email::placeholder {
+  width: 358px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 1.25;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-button {
-  border: 0;
-  width: 200px;
-  height: 50px;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0, 0.15);
-  border-radius: 4px;
-  padding: 10px 29px;
-  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 28px;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.6em;
-  color: #ffffff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--first-title-color);
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  background: var(--accent-color);
 }
 
-.footer-botton:hover,
-.footer-botton:focus {
-  background-color: #188ce8;
-}
-
-.submit-input {
-  font-size: 20px;
-  margin-bottom: 5px;
-  color: var(--main-text-color);
+.footer-button-icon {
+  margin-left: 10px;
 }
 
 /* --------------- PORTFOLIO----------------- */
