@@ -322,13 +322,15 @@ button {
 }
 
 .main-btn {
+  font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  display: inline-block;
+
   border: none;
   border-radius: 4px;
+
   max-height: 50px;
   color: var(--header-title-color);
   background-color: var(--accent-color);
@@ -710,6 +712,7 @@ button {
 .footer-submit {
   justify-content: center;
   align-items: center;
+  margin-top: 0px;
   margin-left: 93px;
 }
 
@@ -724,7 +727,6 @@ button {
 }
 
 .footer-submit-form {
-  
   display: flex;
 }
 
@@ -742,7 +744,6 @@ button {
   background-color: transparent;
   width: 358px;
   color: var(--first-title-color);
-  margin-right: 12px;
 }
 
 .submit-email::placeholder {
@@ -768,7 +769,7 @@ button {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--first-title-color);
+  color: var(--first-button-color);
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -935,9 +936,10 @@ button {
 }
 
 .modal-title {
-  font-size: 20px;
   font-weight: 700;
+  font-size: 20px;
   line-height: 1.15;
+  text-align: center;
   color: var(--header-text-color);
   text-align: center;
   letter-spacing: 0.03em;
@@ -951,9 +953,9 @@ button {
 }
 
 .form-btn {
-  display: block;
-  margin: 0 auto;
-  padding: 10px 56px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 56px;
 }
 
 .modal-input {
@@ -983,8 +985,8 @@ button {
 }
 
 .modal-input-text {
-  font-size: 12px;
   display: block;
+  font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   margin-bottom: 4px;
@@ -1000,6 +1002,14 @@ button {
   padding: 10px;
   resize: none;
   background-color: transparent;
+}
+
+.modal-form-fiels {
+  margin-bottom: 20px;
+}
+
+.modal-form-field {
+  margin-bottom: 30px;
 }
 
 .input-icon {
@@ -1082,12 +1092,8 @@ button {
   justify-content: center;
 }
 
-.modal-form-fiel {
-  margin-bottom: 20px
-}
-
 .modal-form-field {
-  margin-bottom: 30px;
+  margin-bottom: 30px
 }
 
 .input-modal-wrap {
